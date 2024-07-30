@@ -1,0 +1,21 @@
+.filter_header{
+    background-color: rgb(16, 163, 16);
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+    padding: 10px 0px
+}
+.car_card .card{
+   border-radius: 25px !important;
+   -webkit-border-radius: 25px !important;
+   -moz-border-radius: 25px !important;
+   -ms-border-radius: 25px !important;
+   -o-border-radius: 25px !important;
+}
+.car_card img{
+    border-radius: 25px 25px 0px 0px !important;
+    padding: 5px;
+}
+.bg-set{
+    background-color: rgb(245, 245, 245);
+}
