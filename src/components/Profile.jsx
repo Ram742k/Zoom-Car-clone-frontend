@@ -55,7 +55,7 @@ const Profile = () => {
             <div>
               <p><strong>Profile Picture:</strong></p>
               <img 
-                src={`http://localhost:5000/${user.profilePicture.replace(/\\/g, '/')}`} 
+                src={`https://zoom-car-clone-backend.onrender.com/${user.profilePicture.replace(/\\/g, '/')}`} 
                 alt="Profile" 
                 className="profile-picture img-thumbnail"
               />
