@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { HosterContext } from '../context/HosterContext';
 
 const HosterBookings = () => {
-    const { bookings, fetchBookings } = useContext(HosterContext);
+    const { bookings, fetchBookings,logout } = useContext(HosterContext);
     // useEffect(() => {
     //     fetchBookings();
     // }, [fetchBookings]);
