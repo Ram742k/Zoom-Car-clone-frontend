@@ -104,19 +104,7 @@ AutoShare is a full-stack application designed to replicate the functionality of
   - Update Vehicle: `PUT /vehicles/<id>`
   - Delete Vehicle: `DELETE /vehicles/<id>`
 
-### 3. Admin Module
 
-- **Features**:
-  - Admin authentication.
-  - Manage all users and hosts.
-  - View and manage all vehicle listings and bookings.
-  
-- **API Endpoints**:
-  - Admin Login: `POST /admin/login`
-  - Fetch All Users: `GET /admin/users`
-  - Fetch All Hosts: `GET /admin/hosts`
-  - Manage Vehicles: `GET /admin/vehicles`
-  - Manage Bookings: `GET /admin/bookings`
 
 ## Notes
 
