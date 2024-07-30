@@ -12,7 +12,7 @@ import HostLogin from "./hoterComponents/HosterLogin";
 import HosterRegister from './hoterComponents/HosterRegister';
 import VehicleManagement  from './hoterComponents/VehicleManagement'
 import HosterBookings from './hoterComponents/HosterBookings'
-
+import ThankYou from './components/ThankYou'
 
 const router = createBrowserRouter([
   {
@@ -58,6 +58,10 @@ const router = createBrowserRouter([
   {
     path: '/hoster_bookings',
     element: <HosterBookings />
+  },
+  {
+    path: '/thank-you',
+    element: <ThankYou />
   }
   
 ]);

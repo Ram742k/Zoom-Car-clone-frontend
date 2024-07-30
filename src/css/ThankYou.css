@@ -1,0 +1,18 @@
+.thank-you-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.payment-details {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+}
+
+.redirect-message {
+    margin-top: 20px;
+    font-style: italic;
+}
